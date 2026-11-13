@@ -4,7 +4,7 @@ Projeto didático de PHP e MySQL baseado em um esquema de Recursos Humanos. O ex
 
 ## Conteúdo
 
-O projeto está em `exemplo_projeto_pratico_1/`.
+Os arquivos do projeto estão diretamente na raiz.
 
 - `RH.sql`: cria e popula o banco `RH`.
 - `conexao.php`: conexão com o MySQL.
@@ -17,14 +17,14 @@ O projeto está em `exemplo_projeto_pratico_1/`.
 1. Importe o banco:
 
 ```bash
-mysql -u root -p < exemplo_projeto_pratico_1/RH.sql
+mysql -u root -p < RH.sql
 ```
 
-2. Ajuste usuário, senha, host e banco em `exemplo_projeto_pratico_1/conexao.php`.
+2. Ajuste usuário, senha, host e banco em `conexao.php`.
 3. Inicie o servidor local:
 
 ```bash
-php -S localhost:8000 -t exemplo_projeto_pratico_1
+php -S localhost:8000
 ```
 
 4. Acesse `http://localhost:8000`.
